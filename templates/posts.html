@@ -1,0 +1,14 @@
+<div class="card">
+    <h2>Latest Posts</h2>
+    <p>Showing {{ post_count }} recent posts</p>
+</div>
+
+<div class="grid">
+    {% for post in posts %}
+    <div class="card post-card">
+        <h3>{{ post }}</h3>
+        <p>By: Author Name</p>
+        <p>Sample post content...</p>
+    </div>
+    {% endfor %}
+</div>

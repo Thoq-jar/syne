@@ -1,0 +1,18 @@
+<div class="card">
+    <h2>Users Directory</h2>
+    <p>Showing {{ user_count }} registered users</p>
+</div>
+
+<div class="grid">
+    {% for user in users %}
+    <div class="card user-card">
+        <h3>{{ user }}</h3>
+        <p>Email: user@example.com</p>
+        <p>Age: 25</p>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="card">
+    <a href="/api/users" class="btn">View JSON API</a>
+</div>

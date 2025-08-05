@@ -1,0 +1,16 @@
+[package]
+name = "syne"
+description = "A small http library with only 6 dependencies (including other libraries and their dependencies)"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1.10"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[lib]
+name = "syne"
+path = "src/lib.rs"
