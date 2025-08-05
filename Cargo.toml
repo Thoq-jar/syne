@@ -2,7 +2,8 @@
 name = "syne"
 description = "A small http library with only 6 dependencies (including other libraries and their dependencies)"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
+license = "MIT"
 
 [dependencies]
 regex = "1.10"
